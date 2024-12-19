@@ -1,0 +1,188 @@
+h1 {
+    color: hotpink;
+    text-align: center;
+    font-size: 5vh;
+}
+
+header {
+    text-align: center;
+}
+
+.grid_container {
+    display: grid;
+    height: 300px;
+    width: 150px;
+    align-content: center;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: pink;
+    padding: 20px;
+    border: 1px black solid;
+}
+
+.grid_container>div {
+    background-color: grey;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 30px;
+}
+
+.grid_container2 {
+    display: grid;
+    height: 300px;
+    width: 150px;
+    align-content: center;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: rgb(209, 52, 175);
+    padding: 20px;
+    margin: 0 30px;
+    border: 1px black solid;
+}
+
+.grid_container2>div {
+    background-color: rgb(210, 185, 185);
+    text-align: center;
+    padding: 40px 0;
+    font-size: 30px;
+    font-size: 10px;
+}
+
+.grid_container3 {
+    display: grid;
+    height: 300px;
+    width: 150px;
+    align-content: center;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: rgb(209, 52, 175);
+    padding: 20px;
+    margin: 0 30px;
+}
+
+.grid_container3>div {
+    background-color: rgb(210, 185, 185);
+    text-align: center;
+    padding: 40px 0;
+    font-size: 30px;
+    font-size: 10px;
+}
+
+.grid_container4 {
+    display: grid;
+    height: 300px;
+    width: 150px;
+    align-content: center;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: rgb(209, 52, 175);
+    padding: 20px;
+    margin: 0 30px;
+    border: 1px black solid;
+}
+
+.grid_container4>div {
+    background-color: rgb(210, 185, 185);
+    text-align: center;
+    padding: 40px 0;
+    font-size: 30px;
+    font-size: 10px;
+}
+
+.towers {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.grid_container5 {
+    display: grid;
+    height: 150px;
+    width: 95%;
+    align-content: center;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+    background-color: rgb(38, 30, 36);
+    padding: 20px;
+    margin: 40px 20px 0 20px;
+    gap: 2rem;
+}
+
+.grid_container5>div {
+    background-color: rgb(243, 247, 8);
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.grid_circle {
+    border: 2px solid lightgreen;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: lightgreen;
+    position: absolute;
+    left: 215px;
+    z-index: 1;
+}
+
+.grid_circle1 {
+    border: 2px solid rgb(12, 228, 196);
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(21, 181, 226);
+    position: absolute;
+    margin: 10px 0 0 100px;
+    z-index: 1;
+}
+
+.grid_circle2 {
+    border: 2px solid purple;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: purple;
+    position: absolute;
+    margin: 100px 0 0 250px;
+    z-index: 2;
+}
+
+.grid_circle3 {
+    border: 2px solid rgb(21, 181, 226);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(21, 181, 226);
+    position: absolute;
+    margin: 50px 0 0 300px;
+    z-index: 1;
+}
+
+.form {
+    text-align: center;
+
+}
+
+h2 {
+    color: hotpink;
+}
+
+
+
+@media(max-width:786px) {
+    .background {
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+
+    .grid_circle3 {
+        background-color: black;
+    }
+}
+
+/* .background { */
+/* height: 800px;
+    width: 2000px;
+    background-color: aquamarine;
+} */
